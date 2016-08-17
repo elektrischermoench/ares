@@ -4,6 +4,8 @@
 
 **ares** is an APACHE licensed library written in Python providing an easy to use wrapper around https://cve.circl.lu.
 
+This is a python3-fork of ares!!
+
 ## Installation:
 
 From source use
@@ -12,7 +14,7 @@ From source use
 
 or install from PyPi
 
-        $ pip install ares
+	not supported at the moment
 
 ## Documentation:
 
