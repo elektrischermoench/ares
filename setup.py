@@ -13,6 +13,6 @@ setup(
     license='Apache v2.0 License',
     packages=['ares'],
     description='A python wrapper around cve.circl.lu',
-    long_description=file('README.md','r').read(),
+    long_description=open('README.md','r').read(),
     keywords=['CVE', 'API', 'wrapper'],
 )
