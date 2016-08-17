@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import urllib2
+from urllib.request import build_opener
 
 class CVESearch(object):
 
 	def __init__(self, base_url='https://cve.circl.lu/api/'):
 		self.base_url = base_url
-		self.opener = urllib2.build_opener()
+		self.opener = build_opener()
 		self.opener.addheaders.append(('Content-Type', 'application/json'))
 		self.opener.addheaders.append(('User-agent', 'ares - python wrapper \
 		around cve.circl.lu (github.com/mrsmn/ares)'))
